@@ -4,6 +4,35 @@
 
 The Eventual Insurance App is a web application designed to help users understand and visualize their potential savings on insurance premiums over a three-year period. It provides a comparison between insurance costs with and without a premium lock feature, allowing users to see how much they could save.
 
+## Live Demo
+[View the live app on GitHub Pages](https://travisldunn.github.io/eventual/)
+
+## Repository
+[https://github.com/travisldunn/eventual.git](https://github.com/travisldunn/eventual.git)
+
+## Tech Stack & Rationale
+- **React**: Chosen for its component-based architecture and strong ecosystem, making it ideal for building interactive UIs.
+- **TypeScript**: Adds type safety and better developer experience, reducing runtime errors.
+- **Vite**: Provides fast development and build times, with modern tooling out of the box.
+- **Tailwind CSS**: Enables rapid, utility-first styling and ensures a consistent, responsive design.
+- **Framer Motion**: Used for smooth, modern animations and transitions.
+- **Recharts**: Chosen for its composable, React-friendly charting capabilities.
+
+## Assumptions
+- The user is interested in a 3-year insurance premium projection and savings comparison.
+- The "strike price" logic and initial insurance data are based on provided or typical values, and can be easily adjusted for real data.
+- The app is primarily a marketing/educational tool, not a transactional insurance platform.
+
+
+## If I Had More Time
+- Add user authentication and personalized quotes.
+- Integrate with a real API for live data.
+- Add more robust error handling and edge case coverage.
+- Improve accessibility (a11y) and add more comprehensive tests.
+- Add dark/light mode toggle and more theme customization.
+- Polish mobile responsiveness and pixel-perfect details even further.
+- Add analytics to track user interactions and conversion.
+
 ## Features
 
 - **Premium Lock Comparison**: Visualize the difference in insurance costs with and without a premium lock.
@@ -24,7 +53,7 @@ The Eventual Insurance App is a web application designed to help users understan
 1. **Clone the Repository**:
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/travisldunn/eventual.git
    cd eventual
    ```
 
@@ -52,6 +81,14 @@ npm run build
 
 The build artifacts will be stored in the `dist/` directory.
 
-## License
+## Deploying to GitHub Pages
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+To deploy the app to GitHub Pages:
+
+```bash
+npm run deploy
+```
+
+The app will be available at: [https://travisldunn.github.io/eventual/](https://travisldunn.github.io/eventual/)
+
+
