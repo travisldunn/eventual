@@ -7,7 +7,7 @@ const queryClient = new QueryClient();
 
 const App = () => (
   <QueryClientProvider client={queryClient}>
-    <BrowserRouter>
+    <BrowserRouter basename="/eventual">
       <Routes>
         <Route path="/" element={<Index />} />
         <Route path="*" element={<NotFound />} />
