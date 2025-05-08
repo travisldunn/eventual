@@ -31,7 +31,7 @@ const Features: React.FC = () => {
         <motion.div className="flex flex-col" variants={item}>
           <div className="mb-4 flex justify-start -ml-5">
             <img
-              src="/assets/icons/buildings.png"
+              src={`${import.meta.env.BASE_URL}assets/icons/buildings.png`}
               alt="Building Icon"
               className="w-32 h-32 object-contain opacity-80"
             />
@@ -48,7 +48,7 @@ const Features: React.FC = () => {
         <motion.div className="flex flex-col" variants={item}>
           <div className="mb-4 flex justify-start -ml-5">
             <img
-              src="/assets/icons/charts.png"
+              src={`${import.meta.env.BASE_URL}assets/icons/charts.png`}
               alt="Chart Icon"
               className="w-32 h-32 object-contain opacity-80"
             />

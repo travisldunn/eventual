@@ -2,7 +2,7 @@ import React from "react";
 
 const Logo = ({ className = "", ...props }) => (
   <img
-    src="/assets/logo.png"
+    src={`${import.meta.env.BASE_URL}assets/logo.png`}
     alt="Eventual Logo"
     className={`h-8 w-auto ${className}`}
     {...props}
