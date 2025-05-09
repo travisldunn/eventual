@@ -5,10 +5,10 @@
 The Eventual Insurance App is a web application designed to help users understand and visualize their potential savings on insurance premiums over a three-year period. It provides a comparison between insurance costs with and without a premium lock feature, allowing users to see how much they could save.
 
 ## Live Demo
-[View the live app on GitHub Pages](https://travisldunn.github.io/eventual/)
+[View the interview challenge live app on GitHub Pages](https://travisldunn.github.io/eventual/)
 
 ## V2 of the App
-I've created a V2 of the app with additional ideas and improvements to make things clearer for the user. You can check it out here: [https://travisldunn.github.io/eventual2/](https://travisldunn.github.io/eventual2/)
+I've created a V2 of the app with additional ideas and improvements to make things clearer for the user. You can check it out here: [View the V2 live app on GitHub Pages](https://travisldunn.github.io/eventual2/)
 
 ## Repository
 [https://github.com/travisldunn/eventual.git](https://github.com/travisldunn/eventual.git)
