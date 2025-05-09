@@ -7,6 +7,9 @@ The Eventual Insurance App is a web application designed to help users understan
 ## Live Demo
 [View the live app on GitHub Pages](https://travisldunn.github.io/eventual/)
 
+## V2 of the App
+I've created a V2 of the app with additional ideas and improvements to make things clearer for the user. You can check it out here: [https://travisldunn.github.io/eventual2/](https://travisldunn.github.io/eventual2/)
+
 ## Repository
 [https://github.com/travisldunn/eventual.git](https://github.com/travisldunn/eventual.git)
 
@@ -22,11 +25,11 @@ The Eventual Insurance App is a web application designed to help users understan
 - The user is interested in a 3-year insurance premium projection and savings comparison.
 - The "strike price" logic and initial insurance data are based on provided or typical values, and can be easily adjusted for real data.
 - The app is primarily a marketing/educational tool, not a transactional insurance platform.
-
+- All users see the same static address and initial values for demo purposes.
 
 ## If I Had More Time
 - Add user authentication and personalized quotes.
-- Integrate with a real API for live data.
+- Integrate with a real insurance API for live data.
 - Add more robust error handling and edge case coverage.
 - Improve accessibility (a11y) and add more comprehensive tests.
 - Add dark/light mode toggle and more theme customization.
@@ -90,5 +93,8 @@ npm run deploy
 ```
 
 The app will be available at: [https://travisldunn.github.io/eventual/](https://travisldunn.github.io/eventual/)
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 
