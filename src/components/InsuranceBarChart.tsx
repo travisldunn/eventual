@@ -29,7 +29,7 @@ const InsuranceBarChart: React.FC<ChartProps> = ({
 }) => {
   return (
     <div className="bg-secondary/50 rounded-lg flex flex-col items-center justify-center p-4 md:p-6 h-full">
-      <h3 className="text-xl font-medium mb-4 md:mb-6 text-center">{title}</h3>
+      <h3 className="text-xl font-medium mb-4 md:mb-6 text-center text-[#8E9196]">{title}</h3>
       <div className="h-56 md:h-64 w-full flex items-center justify-center overflow-hidden">
         <ChartContainer
           config={{
