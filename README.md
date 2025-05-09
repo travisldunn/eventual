@@ -1,8 +1,8 @@
-# Eventual Insurance App
+# Eventual App
 
 ## Overview
 
-The Eventual Insurance App is a web application designed to help users understand and visualize their potential savings on insurance premiums over a three-year period. It provides a comparison between insurance costs with and without a premium lock feature, allowing users to see how much they could save.
+The Eventual App is a web application designed to help users understand and visualize their potential savings on insurance premiums over a three-year period. It provides a comparison between insurance costs with and without a premium lock feature, allowing users to see how much they could save.
 
 ## Live Demo
 [View the interview challenge live app on GitHub Pages](https://travisldunn.github.io/eventual/)
